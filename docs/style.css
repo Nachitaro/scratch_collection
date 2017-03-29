@@ -1,0 +1,50 @@
+body{
+text-align:center;
+color:#ffffff;
+background:#ffa500;
+}
+
+table{
+margin:0 auto;
+line-height:1.5em;
+}
+
+#wrap{
+width:800px;
+margin:0 auto;
+text-align:center;
+}
+
+#head {
+padding:10px;
+}
+
+.post1 {
+padding:10px;
+font-size:26pt;
+}
+
+.post2 {
+padding:34px;
+text-align:center;
+font-size:18pt;
+float: left;
+}
+
+.post3 {
+text-align:center;
+padding-right:10px;
+font-size:18pt;
+}
+
+.post4 {
+text-align:left;
+padding-right:10px;
+font-size:18pt;
+}
+
+#foot {
+clear:both;
+text-align:center;
+padding:10px;
+}
