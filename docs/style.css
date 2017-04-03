@@ -1,34 +1,56 @@
+@charset "UTF-8";
+
 body{
 text-align:center;
 color:#ffffff;
 background:#ff9105;
+width : 100%;
 }
+
+#body1{
+  height:203%;
+  width:60%;
+  position: absolute;
+  right: 60%;
+  margin-right: 280px;
+  background-position: right top;
+  background-image: url(images/scratchcat.png);
+  background-repeat: repeat-y;
+}
+
+#body2{
+  height:203%;
+  width:60%;
+  position: absolute;
+  left: 60%;
+  margin-left: 280px;
+  background-image: url(images/image002.png);
+  background-repeat: repeat-y;
+}
+
 
 table{
 margin:0 auto;
 line-height:1.5em;
 }
 
-#wrap{
-width:800px;
-margin:0 auto;
-text-align:center;
-}
-
-#head {
-padding:10px;
+div{
+  display: block;
 }
 
 .post1 {
 padding:10px;
-font-size:26pt;
+font-size:24pt;
 }
 
 .post2 {
-padding:34px;
+padding-left:20px;
 text-align:center;
 font-size:18pt;
 float: left;
+width: 320px;
+height:260px;
+font-style: "HGP創英角ﾎﾟｯﾌﾟ体";
 }
 
 .post3 {
@@ -39,12 +61,37 @@ font-size:18pt;
 
 .post4 {
 text-align:left;
-padding-right:10px;
+padding:10px;
 font-size:18pt;
+width:760px;
+margin: auto;
 }
 
-#foot {
-clear:both;
-text-align:center;
-padding:10px;
+
+.header{
+  width : 760px;
+  height : 480px;
+  margin : auto;
+  padding: 10px;
+}
+#header2{
+  width : 760px;
+  height : 580px;
+  margin : auto;
+  padding: 10px;
+}
+.main{
+  width : 900px;
+  margin : auto;
+}
+.contents{
+  width : 920px;
+  float : left;
+}
+.footer{
+  width : 760px;
+  align:center;
+  clear : both;
+  margin : auto;
+  padding: 20px;
 }
